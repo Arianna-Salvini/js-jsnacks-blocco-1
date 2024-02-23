@@ -1,25 +1,20 @@
 console.log("Hello again");
 
 // L’utente inserisce due parole in successione, con due prompt.
-
-const firstWord = prompt("Type a word")
-
-const secondWord = prompt("Type another word")
-
-console.log(firstWord, secondWord);
+const firstWord = prompt("Type a number")
+const secondWord = prompt("Type another number")
+let longestWord= false;
 
 // Il software stampa prima la parola più corta, poi la parola più lunga.
 
-if (firstWord.length > secondWord.length)}{
-    majorWord = firstWord
+if (firstWord.length > secondWord.length){
+    longestWord = true;
     console.log(firstWord);
-} else {
     console.log(secondWord);
+} else if(firstWord.length == secondWord.length){
+    console.log("Your two words have the same lenght");
 }
-
-if (firstWord.length < secondWord.length)}{
-    majorWord = firstWord
+else {
     console.log(secondWord);
-} else {
     console.log(firstWord);
 }
