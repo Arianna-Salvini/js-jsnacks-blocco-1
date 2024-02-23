@@ -10,6 +10,9 @@ let greatestNumber = false;
 if (firstNumber > secondNumber){
     greatestNumber = true;
     console.log(firstNumber);
-} else {
+} else if(firstNumber === secondNumber){
+    console.log("Type two different number please");
+}
+else {
     console.log(secondNumber);
 }
