@@ -5,9 +5,22 @@ console.log('hell');
 
 let numbersList = []
 
-for (let i = 0; i < 10; i++) {
+// for (let i = 0; i < 10; i++) {
+//     let userNumber = prompt("Inserisci un numero")
+//     // console.log(userNumber);
+//     numbersList.push(userNumber)
+
+//     console.log(numbersList);
+
+//     let sum = 0
+
+//     sum += numbersList[i]
+
+// }
+let i = 0
+while (i < 10) {
     let userNumber = prompt("Inserisci un numero")
-    // console.log(userNumber);
+    console.log(userNumber);
     numbersList.push(userNumber)
 
     console.log(numbersList);
@@ -15,7 +28,6 @@ for (let i = 0; i < 10; i++) {
     let sum = 0
 
     sum += numbersList[i]
-
-
-
+    
+    i++
 }
