@@ -4,15 +4,15 @@ console.log('hell');
 // Il programma stampa la somma di tutti i numeri inseriti.
 
 
-for (let i = 0; i < 10; i++) {
-    let userNumber = (parseInt(prompt("Inserisci un numero")))
-    // console.log(userNumber);
+// for (let i = 0; i < 10; i++) {
+//     let userNumber = (parseInt(prompt("Inserisci un numero")))
+//     // console.log(userNumber);
 
-    let sum = 0
-    sum += userNumber
+//     let sum = 0
+//     sum += userNumber
 
-    console.log(sum);
-}
+//     console.log(sum);
+// }
 // let i = 0
 
 // while (i < 10) {
@@ -29,3 +29,13 @@ for (let i = 0; i < 10; i++) {
 //     i++
 // }
 //
+
+let sum = 0
+
+for (let i = 0; i < 10; i++){
+    let userNumber = parseInt(prompt('Inserisci un numero'));
+
+    sum += userNumber;
+}
+
+console.log(sum);
