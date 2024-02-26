@@ -7,9 +7,10 @@ let numb4Digit = Number(prompt("inserisci un numero a 4 cifre"));
 console.log(numb4Digit);
 let sum = 0
 
-for (let i = 0; i < numb4Digit.length; i++) {
-    let digit = numb4Digit[i];
-    console.log(digit);
-    sum = digit[i]
-    console.log(sum);
+if ( numb4Digit.length === 4){
+
+    for (let i = 0; i < numb4Digit.length; i++) {
+        sum += digit[i]
+        console.log(sum);
+    }
 }
