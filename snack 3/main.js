@@ -30,12 +30,25 @@ console.log('hell');
 // }
 //
 
-let sum = 0
+// let sum = 0
 
-for (let i = 0; i < 10; i++){
+// for (let i = 0; i < 10; i++){
+//     let userNumber = parseInt(prompt('Inserisci un numero'));
+
+//     sum += userNumber;
+// }
+
+// console.log(sum);
+
+
+let index= 0
+let sum = 0
+while (index < 10) {
+
     let userNumber = parseInt(prompt('Inserisci un numero'));
 
     sum += userNumber;
+    index++;
 }
 
 console.log(sum);
